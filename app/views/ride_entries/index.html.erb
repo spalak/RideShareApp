@@ -1,0 +1,10 @@
+<table>
+	<% @ride_entries.each do |ride_entry| %>
+		<tr>
+			<td><%= link_to ride_entry.location, ride_entry_path(ride_entry) %> </td>
+			<td><%= ride_entry.start_date %></td>
+			<td><%= ride_entry.start_time %></td>
+			<td><%= ride_entry.users.first.name %></td>
+		</tr>
+	<% end %>
+</table>

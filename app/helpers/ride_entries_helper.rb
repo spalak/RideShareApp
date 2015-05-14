@@ -1,0 +1,2 @@
+module RideEntriesHelper
+end
