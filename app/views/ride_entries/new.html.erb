@@ -8,5 +8,10 @@
 	<%= form.label :start_time %>
 	<%= form.time_field :start_time %>
 
+<!-- 	<%= fields_for @ride_entry.users do |users_form| %>
+		<%= users_form.label :name %>
+		<%= users_form.text_field :name %>
+	<% end %> -->
+
 	<%= form.submit "Save" %>
 <% end %>
